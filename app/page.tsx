@@ -39,7 +39,7 @@ export default function Home() {
               alt="hero-image"
               width={100}
               height={100}
-              style={{borderRadius: '50%'}}
+              style={{ borderRadius: '50%' }}
             />
           </div>
         </main>
@@ -70,6 +70,7 @@ export default function Home() {
           </div>
         </div>
 
+        <div className={styles.featureSection}>
         <div className={styles.feature}>
           <section className={styles.featureWork}>
             <p> Featured works </p>
@@ -119,15 +120,16 @@ export default function Home() {
             </div>
           </section>
         </div>
-          <footer className={styles.footer}>
-            <div className={styles.icon}>
-          <FaFacebookSquare />
-          <FaInstagram />
-          <FaTwitter />
-          <FaLinkedin />
+        </div>
+        <footer className={styles.footer}>
+          <div className={styles.icon}>
+            <FaFacebookSquare />
+            <FaInstagram />
+            <FaTwitter />
+            <FaLinkedin />
           </div>
           <p>Copyright ©2020 All rights reserved </p>
-          </footer>
+        </footer>
       </section>
     </div>
   )
