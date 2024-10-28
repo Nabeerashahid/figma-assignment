@@ -1,0 +1,427 @@
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    line-height: 30px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.heroSection {
+    font-family: Heebo;
+    width: 450px;
+    height: 50%; 
+    position: absolute;
+    left: 1px;
+    font-size: 35px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    /* 124px */
+}
+
+.heroText {
+    width: 450px;
+    height: 60px;
+    position: absolute;
+    top: 80px;
+    left: 1px;
+    font-family: Heebo;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+}
+
+.mainSection {
+    width: 521px;
+    height: 205px ;
+    top: 249px;
+    left: 231px;
+}
+
+.downloadResume {
+    border-radius: 1px 1px 2px 1px;
+    background: #F98585;
+    position: absolute;
+    top: 120px;
+    font-family: Heebo;
+    font-size: 18px;
+    width: 151px;
+    height: 26px;
+    box-shadow: 0px 4px 4px 0px #4141418A;
+    color: #FFFFFF;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 320px ;
+    background-color: #c3c0c0;
+}
+
+.div {
+    width: 60%;
+    height: 180px;
+    position: absolute;
+    left: 39px;
+    top: 50px;
+}
+
+.img {
+    width: 120px;
+    position: absolute;
+    top: 63px;
+    right: 60px;
+}  
+
+.recentPost {
+    width: 1440px;
+    height: 190px;
+    top: 665px;
+    background: var(--secoundry, #F4E2E2);
+
+}
+
+.recent {
+    position: relative;
+}
+
+.recentPost p {
+    width: 120px;
+    height: 32px;
+    position: absolute;
+    top: 6%;
+    left: 120px;
+    font-family: Heebo;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32.31px;
+    text-align: left;
+
+}
+
+.recentPost h5 {
+    top: 5px;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.img2 {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 63px;
+    left: 60px;
+}
+
+.img3 {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 90%;
+    left: 60px;
+}
+.box1 {
+    width: 230px;
+    height: 100px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    font-family: Heebo;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.box1 p {
+    width: 180px;
+    font-family: Heebo;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 10px;
+    top: 34%;
+    left: 1px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000000B2;
+
+}
+
+.box1 h6 {
+    line-height: 8px;
+    position: absolute;
+    top: 60%;
+    font-size: 8px;
+    font-family: Heebo;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+
+.box2 {
+    width: 230px;
+    height: 100px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    font-family: Heebo;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.box2 p {
+    width: 180px;
+    font-family: Heebo;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 10px;
+    top: 34%;
+    left: 1px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000000B2;
+
+}
+
+.box2 h6 {
+    line-height: 8px;
+    position: absolute;
+    top: 60%;
+    font-size: 8px;
+    font-family: Heebo;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.recentPost h5 {
+    color: #F98585;
+    font-family: Heebo;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32.31px;
+    text-align: left;
+    position: absolute;
+    left: 75%;
+
+}
+
+.feature {
+    position: relative;
+    height: 200px;
+}
+
+.featureWork {
+    width: 100%;
+    height: 150px;
+    /* background-color: #CFA6A61C; */
+}
+
+.featureWork p {
+    font-family: Heebo;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30.31px;
+    text-align: left;
+    position: absolute;
+    left: 18%;
+    top: 10%;
+}
+
+.featureText {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.box3 {
+    width: 919px;
+    height: 530px;
+    top: 1246px;
+    left: 237px;
+    background-color: #CFA6A61C;
+}
+
+.box {
+    width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    gap: 0px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 5px;
+    opacity: 0px;
+    background-color: #F98585;
+    font-family: Heebo;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.box span {
+    color: #0000009E;
+    position: absolute;
+    left: 115%;
+}
+
+.box p {
+    width: 250px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    position: absolute;
+    top: 112%;
+    font-family: Heebo;
+    font-weight: 300;
+    text-align: left;
+}
+
+.box4 {
+    width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 98%;
+    left: 38%;
+    gap: 0px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 5px;
+    opacity: 0px;
+    background-color: #F98585;
+    font-family: Heebo;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.box4 span {
+    color: #0000009E;
+    position: absolute;
+    left: 115%;
+}
+
+.box4 p {
+    width: 250px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    position: absolute;
+    top: 112%;
+    font-family: Heebo;
+    font-weight: 300;
+    text-align: left;
+}
+
+.featureText2 {
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+}
+
+.img4 {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 150%;
+    left: 60px;
+}
+
+.featureText3 {
+    width: 100%;
+    position: absolute;
+    top: 148%;
+    left: 20%;
+}
+
+.box5 {
+    width: 38px;
+    height: 20px;
+    position: absolute;
+    top: 160%;
+    left: 38%;
+    gap: 0px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 5px;
+    opacity: 0px;
+    background-color: #F98585;
+    font-family: Heebo;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.box5 span {
+    color: #0000009E;
+    position: absolute;
+    left: 115%;
+}
+
+.box5 p {
+    width: 250px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    position: absolute;
+    top: 126%;
+    font-family: Heebo;
+    font-weight: 300;
+    text-align: left;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.icon {
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 280%;
+    gap: 20px;
+}
+
+.footer p {
+font-family: Heebo;
+font-size: 15px;
+font-weight: 500;
+line-height: 32.31px;
+text-align: left;
+color: #000000;
+position: absolute;
+top: 290%;
+left: 34%;
+
+}

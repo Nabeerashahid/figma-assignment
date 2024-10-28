@@ -1,95 +1,134 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import styles from "./styles/style.module.css"
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+      <section className={styles.container}>
+        <header className={styles.header}>
+          <nav className={styles.nav}>
+            <ul>
+              <li>
+                <a href="#"> Works </a> </li>
+              <li> <a href="#"> Blog </a> </li>
+              <li> <a href="#"> Contact </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <main className={styles.mainSection}>
+          <div className={styles.div}>
+            <h1 className={styles.heroSection}> Hi, I am John,<br />
+              Creative Technologist </h1>
+
+            <p className={styles.heroText}> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+
+            <p className={styles.downloadResume}>
+              Download Resume
+            </p>
+          </div>
+          <div className={styles.img}>
             <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src="/image.jpg"
+              alt="hero-image"
+              width={100}
+              height={100}
+              style={{borderRadius: '50%'}}
             />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+          </div>
+        </main>
+
+        <div className={styles.recent}>
+          <div className={styles.recentPost}>
+            <p> Recent Post </p>
+
+            <h5>View All</h5>
+            <section className={styles.post}>
+              <div className={styles.box1}>
+                <h1>Making a design system from scratch</h1>
+
+                <p> 12 Feb 2020    |    Design , Pattern</p>
+
+                <h6>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</h6>
+              </div>
+
+              <div className={styles.box2}>
+                <h1>Making a design system from scratch</h1>
+
+                <p> 12 Feb 2020    |    Design , Pattern</p>
+
+                <h6>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</h6>
+              </div>
+
+            </section>
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <div className={styles.feature}>
+          <section className={styles.featureWork}>
+            <p> Featured works </p>
+
+            <div className={styles.box3}>
+              <div className={styles.img2}>
+                <Image
+                  src="/Rectangle 30.jpg"
+                  alt='computer-image'
+                  width={180}
+                  height={100}
+                />
+              </div>
+
+              <div className={styles.featureText}> <p> Designing Dashboards </p> </div>
+              <div className={styles.box}> 2020  <span>Dashboard</span>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+
+              <div className={styles.img3}>
+                <Image
+                  src="/Rectangle 32.jpg"
+                  alt='girl-image'
+                  width={180}
+                  height={100}
+                />
+              </div>
+
+              <div className={styles.featureText2}> <p> Designing Dashboards </p> </div>
+              <div className={styles.box4}> 2020  <span>Dashboard</span>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+
+              <div className={styles.img4}>
+                <Image
+                  src="/Rectangle 34.jpg"
+                  alt='rectangle-image'
+                  width={180}
+                  height={100}
+                />
+              </div>
+
+              <div className={styles.featureText3}> <p> Designing Dashboards </p> </div>
+              <div className={styles.box5}> 2020  <span>Dashboard</span>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+          <footer className={styles.footer}>
+            <div className={styles.icon}>
+          <FaFacebookSquare />
+          <FaInstagram />
+          <FaTwitter />
+          <FaLinkedin />
+          </div>
+          <p>Copyright ©2020 All rights reserved </p>
+          </footer>
+      </section>
     </div>
-  );
+  )
 }
