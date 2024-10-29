@@ -420,4 +420,7 @@ left: 34%;
 
 }
 
-
+.featureSection {
+    width: 100%;
+    position: relative;
+}
