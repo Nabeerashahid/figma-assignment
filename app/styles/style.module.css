@@ -269,10 +269,8 @@
     position: absolute;
     top: 38%;
     left: 38%;
-    gap: 0px;
     border-radius: 50px 50px 50px 50px;
     padding: 5px;
-    opacity: 0px;
     background-color: #F98585;
     font-family: Heebo;
     font-size: 13px;
@@ -422,7 +420,4 @@ left: 34%;
 
 }
 
-.featureSection {
-    width: 120%;
-    position: relative;
-}
+
