@@ -226,14 +226,19 @@
 
 }
 
-.feature {
+.featureSection {
     width: 100vw;
+    position: relative;
+}
+
+.feature {
     height: 200px;
 }
 
 .featureWork {
-    width: 100%;
+    width: 100vw;
     height: 280%;
+    background-color: #CFA6A61C;
 }
 
 .featureWork p {
@@ -420,7 +425,4 @@ left: 34%;
 
 }
 
-.featureSection {
-    width: 100vw;
-    position: relative;
-}
+
